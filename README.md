@@ -1,2 +1,0 @@
-# AR_Vehicle_Showcase_Final_Project_Iad
-

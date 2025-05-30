@@ -1,0 +1,979 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16159 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+51588
+Successfully changed project path to: D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad
+D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27568] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 109274318 [EditorId] 109274318 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27568] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 109274318 [EditorId] 109274318 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 27.93 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path D:/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'D:/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.009400 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 240 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 937ms
+	BeginReloadAssembly (97ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (156ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (585ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (370ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.750 seconds
+Refreshing native plugins compatible for Editor in 11.84 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.803 seconds
+Domain Reload Profiling: 1553ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (259ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (183ms)
+			ScanForSourceGeneratedMonoScriptInfo (33ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (602ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (40ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (354ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 21.38 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (2.0 MB). Loaded Objects now: 7179.
+Memory consumption went from 277.1 MB to 275.1 MB.
+Total: 8.142400 ms (FindLiveObjects: 0.848900 ms CreateObjectMapping: 0.930100 ms MarkObjects: 5.022500 ms  DeleteObjects: 1.336300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28467.958743 seconds.
+  path: Assets/Import/animations/Lamborghini.controller
+  artifactKey: Guid(09289940129f658499bf6c3def33dd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/animations/Lamborghini.controller using Guid(09289940129f658499bf6c3def33dd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ba19e983e804f94c9a38788efe82c1f4') in 0.293388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 35.377097 seconds.
+  path: Assets/Settings/URP-Balanced.asset
+  artifactKey: Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/URP-Balanced.asset using Guid(e1260c1148f6143b28bae5ace5e9c5d1) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '3c0c45073763599cb2092d21caebbd58') in 0.028465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Scenes/MarkerBasedARScene.unity
+  artifactKey: Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Scenes/MarkerBasedARScene.unity using Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/Scenes/MarkerBasedARScene.unity additively'
+Loaded scene 'Assets/Scenes/MarkerBasedARScene.unity'
+	Deserialize:            45.939 ms
+	Integration:            2.164 ms
+	Integration of assets:  0.837 ms
+	Thread Wait Time:       -0.001 ms
+	Total Operation Time:   48.939 ms
+ -> (artifact id: '4837f10331b6af66061e403731b9b388') in 0.166488 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Settings/URP-Performant.asset
+  artifactKey: Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/URP-Performant.asset using Guid(d0e2fc18fe036412f8223b3b3d9ad574) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'fedfb8e1720b148b3842785a0873af13') in 0.023365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.085050 seconds.
+  path: Assets/Import/animations/Lamborghini.controller
+  artifactKey: Guid(09289940129f658499bf6c3def33dd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/animations/Lamborghini.controller using Guid(09289940129f658499bf6c3def33dd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '80761bdde3c8d868e56f7c15b4176db5') in 0.015369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MarkerBasedARScene.unity
+  artifactKey: Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MarkerBasedARScene.unity using Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7d7ab90002d5a191dc682794c74edd5d') in 0.017139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.417304 seconds.
+  path: Assets/Import/materials/material_24_24.mat
+  artifactKey: Guid(24e079e1c0e034c4491adf5835462316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/material_24_24.mat using Guid(24e079e1c0e034c4491adf5835462316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e4bb3bf406850bb02caa3938780e83c') in 0.065594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/MainMenuScene.unity
+  artifactKey: Guid(1b274f1284dd46743ace1af52108e3d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MainMenuScene.unity using Guid(1b274f1284dd46743ace1af52108e3d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16156c9fedc462f9636c841d36ed313a') in 0.016740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Import/materials/plastique_28.mat
+  artifactKey: Guid(9539da92fab87d84b98804a207ddbf64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/plastique_28.mat using Guid(9539da92fab87d84b98804a207ddbf64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '949dce4e616e8c02c62aaddf623cafc7') in 0.025296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Import/materials/Vents_14.mat
+  artifactKey: Guid(398f776e57f740b4a9d9eea51d9d42ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Vents_14.mat using Guid(398f776e57f740b4a9d9eea51d9d42ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3724453595db3ef46b8f7512c5271173') in 0.020201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Import/materials/chrome_29.mat
+  artifactKey: Guid(47e8724f1aba16645ac59ee386584483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/chrome_29.mat using Guid(47e8724f1aba16645ac59ee386584483) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '65d74f3d9b1f977a6180922807952d86') in 0.021182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Import/materials/Glass_34.mat
+  artifactKey: Guid(d4b987b601072aa419b582ea3df40ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Glass_34.mat using Guid(d4b987b601072aa419b582ea3df40ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f906444b003c771b100e059ac033d761') in 0.018977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Import/materials/Carbon_M_31.mat
+  artifactKey: Guid(9410ad4c09c08934bb379ee83196b005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Carbon_M_31.mat using Guid(9410ad4c09c08934bb379ee83196b005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '429731efcca37a4960b89c7efa687fff') in 0.102927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/materials/Material.016_13.mat
+  artifactKey: Guid(b45f2981cf006dc4fa43bd0c41b41990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material.016_13.mat using Guid(b45f2981cf006dc4fa43bd0c41b41990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1739c33141840959c9f21f9323a209b7') in 0.023552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Import/materials/material_1.mat
+  artifactKey: Guid(37daa00f727fa2d4385b8238c3f430d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/material_1.mat using Guid(37daa00f727fa2d4385b8238c3f430d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd232832317476f3bfc853041bfd25198') in 0.024649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89a67fd6a5c522b43057d1f9da5950ce') in 0.133489 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Import/materials/Material.003_7.mat
+  artifactKey: Guid(3a03be77a8fa91b4298b2e3f790f2fcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material.003_7.mat using Guid(3a03be77a8fa91b4298b2e3f790f2fcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b285fcb6fcde3bb939d5485a61251e50') in 0.021872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Import/materials/GLS_AR_35.mat
+  artifactKey: Guid(5c0cb2352ca95c04ea5edba81bbade39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/GLS_AR_35.mat using Guid(5c0cb2352ca95c04ea5edba81bbade39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70a751db56f9e4b7e03d10206843e825') in 0.020413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity
+  artifactKey: Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/18 - ScrollRect & Masking & Layout.unity using Guid(03f9d74cec8e4b94a29d2dfd177c821b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c2d23ad203f3b5dd6bd04324dd3c1ee3') in 0.015949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity
+  artifactKey: Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/17 - Old Computer Terminal.unity using Guid(3e2e4d7b0bed4cf9ab827e9f32448f69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6eb7f85908a17416ad3e0018f146cf80') in 0.016882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/materials/PLAS_22.mat
+  artifactKey: Guid(7b36346adc0a5cf4c8af071738a2eeac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/PLAS_22.mat using Guid(7b36346adc0a5cf4c8af071738a2eeac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fb98d657a9e8cba8df94af2c5096f4b1') in 0.063636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity
+  artifactKey: Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/10 - Bullets & Numbered List Example.unity using Guid(c3f814e1d12c45568daf3dd9a86a0e61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '59845e35528c2a4d96599aab8d1f7dcc') in 0.020439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity
+  artifactKey: Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/01-  Single Line TextMesh Pro.unity using Guid(2ac8cf212df6445e8aebbe3cb832e993) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd80d573be6c19595b681055e09c90759') in 0.020515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bf029a7a1616c1150edd2a3d543aabc') in 0.176053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  artifactKey: Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity using Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'adcf572ede5e4519b29a84a778c230bb') in 0.014108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Import/materials/material_19_19.mat
+  artifactKey: Guid(f11b139ce3f8a3a47a437f495dd7df19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/material_19_19.mat using Guid(f11b139ce3f8a3a47a437f495dd7df19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92c26ba756e49d3a35ba1eb542695296') in 0.069273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity
+  artifactKey: Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/11 - The Style Tag.unity using Guid(84ed36ad77dd4956b2ffe3769f759879) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54e0f24c9953628be6d49ec020b83f48') in 0.015605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Import/materials/Material.019_30.mat
+  artifactKey: Guid(fcd33a7a95c5fb64eb3383171e3e9472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material.019_30.mat using Guid(fcd33a7a95c5fb64eb3383171e3e9472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13695a3a3ccce7e66f4b699a680ff6a5') in 0.022224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Import/materials/material_36_36.mat
+  artifactKey: Guid(bf859d1ffd5b1d1469581ea59cb15c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/material_36_36.mat using Guid(bf859d1ffd5b1d1469581ea59cb15c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d2c663bcb8e19f23a6c5de9ebbb1d2d') in 0.020844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text ExamplesSettings.lighting
+  artifactKey: Guid(87d7457daaa965847a7864d9aa3653d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/06 - Extra Rich Text ExamplesSettings.lighting using Guid(87d7457daaa965847a7864d9aa3653d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '5da9123107d3e54fd4d807734b1f1d92') in 0.055522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode exampleSettings.lighting
+  artifactKey: Guid(285dad100d6ef154bb4c1aabda8771d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode exampleSettings.lighting using Guid(285dad100d6ef154bb4c1aabda8771d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '00bfc8f19cabd890731cf4ad4f6f6cb7') in 0.023388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & SpritesSettings.lighting
+  artifactKey: Guid(0dc688b82108e46458c59cb47617e46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/15 - Inline Graphics & SpritesSettings.lighting using Guid(0dc688b82108e46458c59cb47617e46c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ca463f83eafb9d3b2668a9f2ee558d78') in 0.022943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex AttributesSettings.lighting
+  artifactKey: Guid(55abf42e5008fc143b284122bc9402ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex AttributesSettings.lighting using Guid(55abf42e5008fc143b284122bc9402ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '96d0d343618f6bf5d87a000d6868695e') in 0.027036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Import/materials/LOGO_10.mat
+  artifactKey: Guid(df226bbcd324b3f45a57d813eea5da2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/LOGO_10.mat using Guid(df226bbcd324b3f45a57d813eea5da2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '91d9e8214d6065446f00dd5076903dc7') in 0.027504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity
+  artifactKey: Guid(251716609f634449bfe8ce75c0ed78fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/02 - Multi-line TextMesh Pro.unity using Guid(251716609f634449bfe8ce75c0ed78fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2887e3231381c2fc6be2ed56cb383e49') in 0.018587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/materials/LIGT_RED_38.mat
+  artifactKey: Guid(fe4d7b12664a97441ae753d31c20d2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/LIGT_RED_38.mat using Guid(fe4d7b12664a97441ae753d31c20d2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7c3b94ed24918b5f8e18c2e4fa05431') in 0.023531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder ExampleSettings.lighting
+  artifactKey: Guid(52b1268e83f563546a74e09b348d6b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder ExampleSettings.lighting using Guid(52b1268e83f563546a74e09b348d6b1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'eb8325dd7fa9eb39ed26ee080f70bf24') in 0.026410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Import/materials/Plastic_Dash_15.mat
+  artifactKey: Guid(78b6452ff5edac540946ce81179325bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Plastic_Dash_15.mat using Guid(78b6452ff5edac540946ce81179325bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fe43544efc3f4b21f4d0a3bc95dc4ca3') in 0.012465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '46106d303779be4ab78722eab40c90b1') in 0.018333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 30.073216 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes
+  artifactKey: Guid(b32c3fc96ecbae44ca99fd440e48cc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes using Guid(b32c3fc96ecbae44ca99fd440e48cc9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fafb8b007b682d7ab609891dfb884d2e') in 0.013419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_62_62_0.asset
+  artifactKey: Guid(231910bea7174534d842f0a466ce8039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_62_62_0.asset using Guid(231910bea7174534d842f0a466ce8039) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bcfbae37497afa82afedf89c3a7b68bb') in 0.017714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_73_73_0.asset
+  artifactKey: Guid(162613cf4ce595b498354e2e3d42ca1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_73_73_0.asset using Guid(162613cf4ce595b498354e2e3d42ca1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4b966b39d94abe86ad8de35e0345d3a') in 0.015911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_56_56_0.asset
+  artifactKey: Guid(1d6e2a86bb7c4624fb8f4944e6806886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_56_56_0.asset using Guid(1d6e2a86bb7c4624fb8f4944e6806886) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3ad731be22862b32b7116d7a2ab60a14') in 0.018637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/material_24_24.mat
+  artifactKey: Guid(24e079e1c0e034c4491adf5835462316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/material_24_24.mat using Guid(24e079e1c0e034c4491adf5835462316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '73ee9b7fefefb6e796230687f79714ca') in 0.017758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/DTL_FER_40.mat
+  artifactKey: Guid(d4bafdfd79b73dd4bb6daadc1fed665c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/DTL_FER_40.mat using Guid(d4bafdfd79b73dd4bb6daadc1fed665c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49591c29b691898306bc0a7ce179b325') in 0.020672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_39_39_0.asset
+  artifactKey: Guid(3d2b9ade424a5314db1f730f6f298ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_39_39_0.asset using Guid(3d2b9ade424a5314db1f730f6f298ae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1ec27bef3d605e044fb40c87941d035') in 0.031731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Vents_14.mat
+  artifactKey: Guid(398f776e57f740b4a9d9eea51d9d42ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Vents_14.mat using Guid(398f776e57f740b4a9d9eea51d9d42ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a34187baccec34aeea91581cc0f08086') in 0.022727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_16_16_0.asset
+  artifactKey: Guid(8b6a26eb5108b394ea45e2411b76ab2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_16_16_0.asset using Guid(8b6a26eb5108b394ea45e2411b76ab2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e3305e26a0680aaf357bd23a383c916') in 0.016965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_71_71_0.asset
+  artifactKey: Guid(e8ae3d3fc370a2f479349df95459a680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_71_71_0.asset using Guid(e8ae3d3fc370a2f479349df95459a680) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '125757464fd5049cbfed00affcfa1dc7') in 0.021465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_61_61_0.asset
+  artifactKey: Guid(d2595b0b7f47d964f967e88c594b00b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_61_61_0.asset using Guid(d2595b0b7f47d964f967e88c594b00b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ab93dab50859bdbfc57efcd338fb858') in 0.021564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Glass_34.mat
+  artifactKey: Guid(d4b987b601072aa419b582ea3df40ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Glass_34.mat using Guid(d4b987b601072aa419b582ea3df40ae0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa4fd4c8039371d3f937a893e0370c9a') in 0.020894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Carbon_M_31.mat
+  artifactKey: Guid(9410ad4c09c08934bb379ee83196b005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Carbon_M_31.mat using Guid(9410ad4c09c08934bb379ee83196b005) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8085d38741689d2748799c9a0bd4cf3b') in 0.071454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Material.016_13.mat
+  artifactKey: Guid(b45f2981cf006dc4fa43bd0c41b41990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Material.016_13.mat using Guid(b45f2981cf006dc4fa43bd0c41b41990) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c99e778632b6b382a4b0ab503a59e4d') in 0.026704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_23_23_0.asset
+  artifactKey: Guid(2f4191a4025b264448d84c8d982b6f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_23_23_0.asset using Guid(2f4191a4025b264448d84c8d982b6f6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd9c7cbe54346f1d7e51c612fee5f99c1') in 0.026758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_28_28_0.asset
+  artifactKey: Guid(fa3d165db6436524facc3ebc2c59ac54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_28_28_0.asset using Guid(fa3d165db6436524facc3ebc2c59ac54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '49c92e098bf0c8bcbebe4646095512a2') in 0.017886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_82_82_0.asset
+  artifactKey: Guid(a3b15bc81330ef0448fb792d4d790836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_82_82_0.asset using Guid(a3b15bc81330ef0448fb792d4d790836) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '195888cb21bbe26654d2fb40a369e9c4') in 0.016296 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_83_83_0.asset
+  artifactKey: Guid(69037428e6b74874487f9bfac7c5ef5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_83_83_0.asset using Guid(69037428e6b74874487f9bfac7c5ef5c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b824546bfe43495c3ef29ecad7f7ead7') in 0.016017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_2_2_0.asset
+  artifactKey: Guid(ce48fac95bd048847a03383aa30eb32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_2_2_0.asset using Guid(ce48fac95bd048847a03383aa30eb32c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6de7b53dad886df525ac4981c39ab3ad') in 0.020366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_47_47_0.asset
+  artifactKey: Guid(9e3b5f984761a03469a369c47da84784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_47_47_0.asset using Guid(9e3b5f984761a03469a369c47da84784) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4be90b5bdc239f29a485780e220edc7d') in 0.023072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Material.003_7.mat
+  artifactKey: Guid(3a03be77a8fa91b4298b2e3f790f2fcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Material.003_7.mat using Guid(3a03be77a8fa91b4298b2e3f790f2fcc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '593de24e7e9618648fbd2e3eb51c40a0') in 0.017839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/material_21_21.mat
+  artifactKey: Guid(21d89f8ac9a35e24584d1909bc8b9193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/material_21_21.mat using Guid(21d89f8ac9a35e24584d1909bc8b9193) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c3dd9b162a7aa64113859bd3cfd2c131') in 0.021070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_4_4_0.asset
+  artifactKey: Guid(83f5e46818d79474e94a4c095e390d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_4_4_0.asset using Guid(83f5e46818d79474e94a4c095e390d7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a4c36f6248e63d53e8e14034900277eb') in 0.097461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_32_32_0.asset
+  artifactKey: Guid(69369bcdf8a37a44cad5bf2486f111bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_32_32_0.asset using Guid(69369bcdf8a37a44cad5bf2486f111bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd83fbd923375fdc42767de34e0829143') in 0.016430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_1_1_0.asset
+  artifactKey: Guid(1ca38e855df19f4408427322e54e70bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_1_1_0.asset using Guid(1ca38e855df19f4408427322e54e70bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0ac34c7d0c915e55335706141bbcf50b') in 0.038859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.001184 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/PLAS_22.mat
+  artifactKey: Guid(7b36346adc0a5cf4c8af071738a2eeac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/PLAS_22.mat using Guid(7b36346adc0a5cf4c8af071738a2eeac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab52465392df67a7b3f25e8b8e46a470') in 0.062505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_66_66_0.asset
+  artifactKey: Guid(ef623e871694f07428e9fe0f9988c892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_66_66_0.asset using Guid(ef623e871694f07428e9fe0f9988c892) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '86948eea66d722130c22f3fb764b0354') in 0.017722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/MIROR_41.mat
+  artifactKey: Guid(d57edf24277d8a94d9f7f4f3257f328a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/MIROR_41.mat using Guid(d57edf24277d8a94d9f7f4f3257f328a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a7f0db14f62869545aeeaf766c90ef54') in 0.029436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_41_41_0.asset
+  artifactKey: Guid(68e3ee93a7b34ce47b751eb15ef662a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_41_41_0.asset using Guid(68e3ee93a7b34ce47b751eb15ef662a8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3f59beabcf8c67cec4d43f325246375') in 0.019883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Material.001_42.mat
+  artifactKey: Guid(2e0aee2b46841294f8c9a76ac6156226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Material.001_42.mat using Guid(2e0aee2b46841294f8c9a76ac6156226) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e1e727e313e299c69d73407186f034b6') in 0.020078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_9_9_0.asset
+  artifactKey: Guid(d43d0212d683c224e8ace4ad58ed83ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_9_9_0.asset using Guid(d43d0212d683c224e8ace4ad58ed83ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '95057944e8f919c5e92ef5a71c6b0d84') in 0.028893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_85_85_0.asset
+  artifactKey: Guid(955b3674ae608394484b94bd0846ee7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_85_85_0.asset using Guid(955b3674ae608394484b94bd0846ee7f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '340321033d69b2ca682f1671a417dcc5') in 0.015573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_10_10_0.asset
+  artifactKey: Guid(fcc2a997253784c40bd294b31c23779c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_10_10_0.asset using Guid(fcc2a997253784c40bd294b31c23779c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5a653c8f59309053d7a59d266f8e37fb') in 0.016349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_44_44_0.asset
+  artifactKey: Guid(a5ae5937f52a5e447afa37af105a2146) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_44_44_0.asset using Guid(a5ae5937f52a5e447afa37af105a2146) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c76fbaa8e20f400ef98772422240d25f') in 0.016388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/LIGT_BLC_39.mat
+  artifactKey: Guid(90da370f4cf1a9e4eb0c01d044037174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/LIGT_BLC_39.mat using Guid(90da370f4cf1a9e4eb0c01d044037174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b86107fea05bfa976680a020c35bf7e') in 0.027585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Material.014_23.mat
+  artifactKey: Guid(57b2576a2f88f074484ba5b4efe8edc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Material.014_23.mat using Guid(57b2576a2f88f074484ba5b4efe8edc8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ae5534c68b2e81707bb73c5d3d7c3df') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Material.019_30.mat
+  artifactKey: Guid(fcd33a7a95c5fb64eb3383171e3e9472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Material.019_30.mat using Guid(fcd33a7a95c5fb64eb3383171e3e9472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f26c3fbdb2dbdd6efdd4b745b9453d1') in 0.038106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/material_36_36.mat
+  artifactKey: Guid(bf859d1ffd5b1d1469581ea59cb15c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/material_36_36.mat using Guid(bf859d1ffd5b1d1469581ea59cb15c13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17b7c0bea80259bf5e97d1465cb54f9c') in 0.018278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/ImportedCars/Lamborghini/animations
+  artifactKey: Guid(f8c63323d1ff6184cbb113fe6e9b91cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/animations using Guid(f8c63323d1ff6184cbb113fe6e9b91cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '29ef6da95f9327aa9c93b409500463a2') in 0.016195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Display_9.mat
+  artifactKey: Guid(f8b9f87dfd26273429764b85f1eeb463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Display_9.mat using Guid(f8b9f87dfd26273429764b85f1eeb463) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '694509dcf387c72c8c2289aa66836591') in 0.018590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_74_74_0.asset
+  artifactKey: Guid(72811e3d2f6fd7b4faa1fb3dfb0da752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_74_74_0.asset using Guid(72811e3d2f6fd7b4faa1fb3dfb0da752) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b440e510753c1ef00d824a52f726d307') in 0.026637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_20_20_0.asset
+  artifactKey: Guid(8f2676d0cc2d3c4478dbb3aff6ee97c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_20_20_0.asset using Guid(8f2676d0cc2d3c4478dbb3aff6ee97c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f5dd34b76db122d076f5b7faed73e893') in 0.024234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_65_65_0.asset
+  artifactKey: Guid(5c370e5e83e812e408bb5f83dde4bb20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_65_65_0.asset using Guid(5c370e5e83e812e408bb5f83dde4bb20) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1039bb5fe9120b7a4d7edc48bf99a2e') in 0.020615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Material.013_20.mat
+  artifactKey: Guid(3c503297e8e1c9643885c167440e0f16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Material.013_20.mat using Guid(3c503297e8e1c9643885c167440e0f16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bd3237e528660c368940c8518f47cba0') in 0.028405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_81_81_0.asset
+  artifactKey: Guid(193047cc631eded4a91a6c225c3efa7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_81_81_0.asset using Guid(193047cc631eded4a91a6c225c3efa7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8ccb0bff27aa5624471d5d07d2c56046') in 0.019150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_36_36_0.asset
+  artifactKey: Guid(8040e3d9ce0a0784983704d6735009e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_36_36_0.asset using Guid(8040e3d9ce0a0784983704d6735009e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e5d0035b01022a93af875bfbcc94677') in 0.018358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_68_68_0.asset
+  artifactKey: Guid(c2e47ca34e06e7d4dbccc347b3f61fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_68_68_0.asset using Guid(c2e47ca34e06e7d4dbccc347b3f61fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f4a50a822285c3ef59020310239ea274') in 0.021606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_24_24_0.asset
+  artifactKey: Guid(2553f2174b7083b4c84ff4d054444c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_24_24_0.asset using Guid(2553f2174b7083b4c84ff4d054444c41) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'efc1823b50f4b3eb55230eaaa9c2e5b1') in 0.015476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_72_72_0.asset
+  artifactKey: Guid(719a197f586180843b7f7fc3ebdf3dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_72_72_0.asset using Guid(719a197f586180843b7f7fc3ebdf3dd0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb0092dd991a57efe29a5773802c8659') in 0.016518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/LIGT_RED_38.mat
+  artifactKey: Guid(fe4d7b12664a97441ae753d31c20d2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/LIGT_RED_38.mat using Guid(fe4d7b12664a97441ae753d31c20d2c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c0c3b301eb95930a083d20c691f8332') in 0.018478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/Lamborghini/textures/Material.003_baseColor_1.png
+  artifactKey: Guid(a794028967835d94488f41805056e3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/textures/Material.003_baseColor_1.png using Guid(a794028967835d94488f41805056e3c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '205c1b951728669188c3e102fc234caa') in 0.058662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_30_30_0.asset
+  artifactKey: Guid(35644192514c6ec40b2cdf46322f3f26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_30_30_0.asset using Guid(35644192514c6ec40b2cdf46322f3f26) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '41cfaf410c7b3f2241b41f4d057681f1') in 0.024769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/Lamborghini/materials/Plastic_Dash_15.mat
+  artifactKey: Guid(78b6452ff5edac540946ce81179325bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/materials/Plastic_Dash_15.mat using Guid(78b6452ff5edac540946ce81179325bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7d99db10ffec7c9f7d1c27a2867176b') in 0.019874 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/Lamborghini/meshes/Object_70_70_0.asset
+  artifactKey: Guid(8e9c8536cc0e9d84b8e9110d0933bd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/Lamborghini/meshes/Object_70_70_0.asset using Guid(8e9c8536cc0e9d84b8e9110d0933bd3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f12460291302377232f451ba1f5e802') in 0.019334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

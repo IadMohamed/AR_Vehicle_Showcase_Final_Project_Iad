@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: ReferenceImageLibraryBMW
   m_EditorClassIdentifier: 
-  m_GuidLow: 0
-  m_GuidHigh: 0
+  m_GuidLow: 5750659662806741531
+  m_GuidHigh: 12071272423523371921
   m_DataStore:
     m_Storage: []
   m_Images:
@@ -25,5 +25,5 @@ MonoBehaviour:
       m_GuidHigh: 286772223927055017
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
-    m_Name: BMW_LOGO
+    m_Name: BMW
     m_Texture: {fileID: 0}

@@ -1,0 +1,1878 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16159 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker31
+-projectPath
+D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad
+-logFile
+Logs/AssetImportWorker31.log
+-srvPort
+51588
+Successfully changed project path to: D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad
+D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19808] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 844961942 [EditorId] 844961942 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19808] Host "[IP] 192.168.1.107 [Port] 0 [Flags] 2 [Guid] 844961942 [EditorId] 844961942 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 30.67 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path D:/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/IM ESLSCA UNIVERSITY/Virtual and Augmented Reality Development/AR_Vehicle_Showcase_Final_Project_Iad/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'D:/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer/UnityEditor.VisionOS.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: D:/2022.3.22f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.016505 seconds.
+- Loaded All Assemblies, in  0.686 seconds
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 621 ms
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.318 seconds
+Domain Reload Profiling: 2004ms
+	BeginReloadAssembly (162ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (348ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (341ms)
+			TypeCache.Refresh (338ms)
+				TypeCache.ScanAssembly (310ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1195ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (887ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (210ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.396 seconds
+Refreshing native plugins compatible for Editor in 19.23 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.338 seconds
+Domain Reload Profiling: 2732ms
+	BeginReloadAssembly (251ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (69ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (942ms)
+		LoadAssemblies (601ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (482ms)
+			TypeCache.Refresh (387ms)
+				TypeCache.ScanAssembly (344ms)
+			ScanForSourceGeneratedMonoScriptInfo (63ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1338ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (996ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (77ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (596ms)
+			ProcessInitializeOnLoadMethodAttributes (189ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.29 seconds
+Refreshing native plugins compatible for Editor in 22.87 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6707 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 131 unused Assets / (2.0 MB). Loaded Objects now: 7179.
+Memory consumption went from 277.4 MB to 275.4 MB.
+Total: 9.804000 ms (FindLiveObjects: 0.874600 ms CreateObjectMapping: 0.850800 ms MarkObjects: 6.496400 ms  DeleteObjects: 1.579800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28856.186982 seconds.
+  path: Assets/Import/materials/Material_699_7.mat
+  artifactKey: Guid(abb8dacd6d4032f429c830387d731c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_699_7.mat using Guid(abb8dacd6d4032f429c830387d731c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7b76322eb80790e00e83732f5465845e') in 0.358626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 10.082841 seconds.
+  path: Assets/Import/materials/Material_775_27.mat
+  artifactKey: Guid(f5b275c11f7eda3498fbdcffb10262d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_775_27.mat using Guid(f5b275c11f7eda3498fbdcffb10262d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d1b54ed997678315f2a277a5cbcf846') in 0.018837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Scenes/MarkerBasedARScene.unity
+  artifactKey: Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MarkerBasedARScene.unity using Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c6ac6c75247ab273698c97c0c7257dcd') in 0.015617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.252733 seconds.
+  path: Assets/ImportedCars/BMW
+  artifactKey: Guid(b5f8fd51cd65f6a4ea153cf3e10cf68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW using Guid(b5f8fd51cd65f6a4ea153cf3e10cf68d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518662f9e00b8f7654d91fa8c50dfd89') in 0.000762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.358601 seconds.
+  path: Assets/Import/materials/Material_739_17.mat
+  artifactKey: Guid(6e53e745427b9f749930242e787b3c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_739_17.mat using Guid(6e53e745427b9f749930242e787b3c95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bedd692d029b82cc94a1a700f6873178') in 0.018839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/materials/Material_850_43.mat
+  artifactKey: Guid(b0ed1335187ab4d47b37a33d5f47f94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_850_43.mat using Guid(b0ed1335187ab4d47b37a33d5f47f94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '529d43af984883d10450ac30e1c5dc87') in 0.018770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Import/materials/Material_932_46.mat
+  artifactKey: Guid(930e0cf937aa06a458e2f740a497b4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_932_46.mat using Guid(930e0cf937aa06a458e2f740a497b4c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3a361423f8396b3ba05c6dea960ffb1') in 0.018677 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/materials/Material_803_35.mat
+  artifactKey: Guid(bf72bb7e3fbadcf4997dd8b9a7f30a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_803_35.mat using Guid(bf72bb7e3fbadcf4997dd8b9a7f30a6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7140e6c90775ed823258599273f40403') in 0.023006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/materials/Material_849_42.mat
+  artifactKey: Guid(cb3d10eb67a2cda488864cfb8db74056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_849_42.mat using Guid(cb3d10eb67a2cda488864cfb8db74056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '608b4e90b209b59bde259f117ad488c1') in 0.021164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/materials/Material_408_24.mat
+  artifactKey: Guid(ef8b4f41be976e44f9aced399dd3b4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_408_24.mat using Guid(ef8b4f41be976e44f9aced399dd3b4d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4800ebff0b2397865728b9ed0c29a085') in 0.046031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/materials/Material_692_0.mat
+  artifactKey: Guid(bd8c8b9d90def6345992634b44c13d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_692_0.mat using Guid(bd8c8b9d90def6345992634b44c13d77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '622a187764833b1ce0c9521cd1cd12fd') in 0.021300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Import/materials/Material_847_40.mat
+  artifactKey: Guid(ac6cd143f3c21e749b6d1b870f8f4cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_847_40.mat using Guid(ac6cd143f3c21e749b6d1b870f8f4cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '871d92deb1b6cf54f3665f43d0d0e375') in 0.037678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Import/materials/Material_805_38.mat
+  artifactKey: Guid(bd522c19f4b0f9e44af42351ed927d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_805_38.mat using Guid(bd522c19f4b0f9e44af42351ed927d97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7490d0bf64eaecc7eadbf92a51dd14a1') in 0.021881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Import/materials/Material_1082_48.mat
+  artifactKey: Guid(04d389c444e2234428f3baecdb8b177e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_1082_48.mat using Guid(04d389c444e2234428f3baecdb8b177e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81d557ca1558f98ca95be6310b278d42') in 0.044636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Import/materials/Material_786_29.mat
+  artifactKey: Guid(7aa301941025b214aa08d3df96bef983) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_786_29.mat using Guid(7aa301941025b214aa08d3df96bef983) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bb46225bad88aebbebae5b1161bc1165') in 0.025560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Import/materials/Material_776_28.mat
+  artifactKey: Guid(eb774c09d1250fc45909bc9229755885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_776_28.mat using Guid(eb774c09d1250fc45909bc9229755885) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e8c9cb91f28c47d6a8490bff6461d113') in 0.022450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Import/materials/Material_697_2.mat
+  artifactKey: Guid(b53e556e172403e49bdbf0f1f654b762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_697_2.mat using Guid(b53e556e172403e49bdbf0f1f654b762) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16c01b5c9c3c642478a660bad9f5c6f8') in 0.034050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Import/materials/Material_801_34.mat
+  artifactKey: Guid(7181faa74dd66f64a8219c848fc7fb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_801_34.mat using Guid(7181faa74dd66f64a8219c848fc7fb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4f88c395ed4870641fc4bf3ae5143cf5') in 0.019997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity
+  artifactKey: Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/20 - Input Field with Scrollbar.unity using Guid(337f92480dd24675aae9e79210fb1ad9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '47326fb01efd558667944a499252063c') in 0.016423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Import/materials/Material_802_36.mat
+  artifactKey: Guid(94d27233f01e5484ca5ab85c07fee63d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_802_36.mat using Guid(94d27233f01e5484ca5ab85c07fee63d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'df6fe3ac401adecf27ab809da08905e0') in 0.020736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Import/materials/Material_1063_45.mat
+  artifactKey: Guid(32251d661f75f5f4a99dc6a562a15ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_1063_45.mat using Guid(32251d661f75f5f4a99dc6a562a15ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '81ee57477f0ff1eb4bbfb2feaa59de3f') in 0.073073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Import/materials/Material_279_16.mat
+  artifactKey: Guid(bf14a4e375cc5b4449c20e6d9ae2e786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Import/materials/Material_279_16.mat using Guid(bf14a4e375cc5b4449c20e6d9ae2e786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae64dc867519312fc8b75da1262227d2') in 0.022560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.711325 seconds.
+  path: Assets/ImportedCars/BMW
+  artifactKey: Guid(b5f8fd51cd65f6a4ea153cf3e10cf68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW using Guid(b5f8fd51cd65f6a4ea153cf3e10cf68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '63b594759a32b2a1f60cb73678c12417') in 0.011024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.584616 seconds.
+  path: Assets/Import/BMW.prefab
+  artifactKey: Guid(f55560189dd3bf14e9dd46605247741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/BMW.prefab using Guid(f55560189dd3bf14e9dd46605247741f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f9b7ea191a6368abed2b17d5aacd01') in 0.728598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1309
+========================================================================
+Received Import Request.
+  Time since last request: 0.704753 seconds.
+  path: Assets/Import/animations
+  artifactKey: Guid(9068c8418146b1e4fab1a69523daaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/animations using Guid(9068c8418146b1e4fab1a69523daaa05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93bbb0b4356530f306e7212c40e44bb') in 0.001857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.838730 seconds.
+  path: Assets/Import/materials
+  artifactKey: Guid(f53a1c2e9392eca41b90e5440427f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/materials using Guid(f53a1c2e9392eca41b90e5440427f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e473ae2d390a85651725f50d0cad4a5d') in 0.000544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.370896 seconds.
+  path: Assets/Import/meshes
+  artifactKey: Guid(01b74023f5b900e46826df5dca3ea65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/meshes using Guid(01b74023f5b900e46826df5dca3ea65e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2b16e692ae461c7fba9685a1ae6253a') in 0.001093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.594415 seconds.
+  path: Assets/Import/license.txt
+  artifactKey: Guid(f4f1df9b47ff77d4b9fa5f93a8e18e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/license.txt using Guid(f4f1df9b47ff77d4b9fa5f93a8e18e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fbfa8d4fe8f274c4a344a609e2062b5') in 0.001009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.401079 seconds.
+  path: Assets/ImportedCars/BMW/textures
+  artifactKey: Guid(1cca9bce5970f9b4995f7b864ea50ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/textures using Guid(1cca9bce5970f9b4995f7b864ea50ba2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0bf6887ea4e9ac0a02f115d9ae469f2') in 0.011755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire013_Material #751_0_138_0.asset
+  artifactKey: Guid(da16aae685f9c324fb64de126c0cb69f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire013_Material #751_0_138_0.asset using Guid(da16aae685f9c324fb64de126c0cb69f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '23de7adda9fe9ab82fa3a3e47ea2659c') in 0.022549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_850_43.mat
+  artifactKey: Guid(b0ed1335187ab4d47b37a33d5f47f94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_850_43.mat using Guid(b0ed1335187ab4d47b37a33d5f47f94e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd637a978b9908ec2da2f071ab63ce384') in 0.025679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_848_41.mat
+  artifactKey: Guid(d36c2e03308068d4488ffd1f69cc1910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_848_41.mat using Guid(d36c2e03308068d4488ffd1f69cc1910) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '246f441dbe93b3c644238f0565bb15e1') in 0.030917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/meshes/headlight_Material #707_0_11_0.asset
+  artifactKey: Guid(32e14c70f2ebd394a9eb366368f06573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/headlight_Material #707_0_11_0.asset using Guid(32e14c70f2ebd394a9eb366368f06573) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed4c93105ae9d3cdea20186c1707a8a7') in 0.021725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/BMW/meshes/skirt_Material #694_0_83_0.asset
+  artifactKey: Guid(3c877b1c040e1e647a73c0cc8f9ef997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/skirt_Material #694_0_83_0.asset using Guid(3c877b1c040e1e647a73c0cc8f9ef997) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc100f8de9eb0c1f62029f0053789c34') in 0.022832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/BMW/meshes/sidelogos_Material #805_0_71_0.asset
+  artifactKey: Guid(c11a67621975b3d4594f6ae69bd54b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/sidelogos_Material #805_0_71_0.asset using Guid(c11a67621975b3d4594f6ae69bd54b06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '71d8da357da2623795e15a49dabdcff4') in 0.022987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Cylinder002_Material #574_0_54_0.asset
+  artifactKey: Guid(0ff0f9d765e442d4580f72b0114a7f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Cylinder002_Material #574_0_54_0.asset using Guid(0ff0f9d765e442d4580f72b0114a7f05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97e340dc0433ce21e9e77c4cb581b55f') in 0.020765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedCars/BMW/meshes/bumpers_Material #694_0_77_0.asset
+  artifactKey: Guid(8caa745a2fae3e64887d7dc6b1644ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/bumpers_Material #694_0_77_0.asset using Guid(8caa745a2fae3e64887d7dc6b1644ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a0fed6dd695ff701655168232755bc1a') in 0.022440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Rim003_Material #753_0_125_0.asset
+  artifactKey: Guid(ad392f1870c660947891194dcece4eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Rim003_Material #753_0_125_0.asset using Guid(ad392f1870c660947891194dcece4eb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '55f889ef8dac22cfc452143ed2de620b') in 0.021264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Brake001_Material #774_0_109_0.asset
+  artifactKey: Guid(3cffbe37c1ef6634f8d98e157a380237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Brake001_Material #774_0_109_0.asset using Guid(3cffbe37c1ef6634f8d98e157a380237) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e3aa8c236c651aa93df4198c3aaa193c') in 0.016059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/ImportedCars/BMW/textures/Material_1522_baseColor_15.png
+  artifactKey: Guid(5bd671f9d774b094aa897337f0b00409) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/textures/Material_1522_baseColor_15.png using Guid(5bd671f9d774b094aa897337f0b00409) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61732cb16954d176ea239bc6025921f2') in 0.075729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/BMW/textures/Material_718_baseColor_3.png
+  artifactKey: Guid(1cd0062669813754d943a959285659b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/textures/Material_718_baseColor_3.png using Guid(1cd0062669813754d943a959285659b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae54c63dde74800f57b270d05ee73e10') in 0.029431 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Dashboard_Material #697_0_156_0.asset
+  artifactKey: Guid(7eca9a78df5d05542be4aba0afa30888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Dashboard_Material #697_0_156_0.asset using Guid(7eca9a78df5d05542be4aba0afa30888) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac780b1685860fc2285a9752baea9254') in 0.018419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/BMW/meshes/seats_Material #805_0_95_0.asset
+  artifactKey: Guid(5b9d6b3e6ea5c3b40b315b36aa1daab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/seats_Material #805_0_95_0.asset using Guid(5b9d6b3e6ea5c3b40b315b36aa1daab0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f807799d75fb5646d88c0d5abc2f4e8f') in 0.019863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/BMW/meshes/rear_seatbackrest_Material #847_0_180_0.asset
+  artifactKey: Guid(df4e6bcc87455c1488933f2ce3d0cecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/rear_seatbackrest_Material #847_0_180_0.asset using Guid(df4e6bcc87455c1488933f2ce3d0cecc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22ca16e1d1984ffe58cd4edea5c1c9b9') in 0.033655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Box003_Material #706_0_163_0.asset
+  artifactKey: Guid(a181f6e71b7ecee499151c0cca0f51f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Box003_Material #706_0_163_0.asset using Guid(a181f6e71b7ecee499151c0cca0f51f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c41a3b9c9355388804e76883bb63ac5') in 0.019954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_717_14.mat
+  artifactKey: Guid(1621ff74c791cb440a4b543fe038130f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_717_14.mat using Guid(1621ff74c791cb440a4b543fe038130f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00b64e67e9b11d631afb4963edf65c31') in 0.020184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/textures/Material_408_baseColor_6.png
+  artifactKey: Guid(f193f59e8746c874fbb8b1d99ff6e2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/textures/Material_408_baseColor_6.png using Guid(f193f59e8746c874fbb8b1d99ff6e2a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c7dff027797aa1e1dd0d097ba7b941dd') in 0.036092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Object002_Material #700_0_165_0.asset
+  artifactKey: Guid(9492ca5c4d413a646b4897667f3140ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Object002_Material #700_0_165_0.asset using Guid(9492ca5c4d413a646b4897667f3140ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f8dd09640984c7931570f83ce35a4845') in 0.019175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Passenger_Door_Material #849_0_194_0.asset
+  artifactKey: Guid(d9b1aa129de54bf418637cd1d8757e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Passenger_Door_Material #849_0_194_0.asset using Guid(d9b1aa129de54bf418637cd1d8757e6f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '92117067f777651518aef1b0feb67015') in 0.016915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_787_31.mat
+  artifactKey: Guid(85742be6b0d043045b9a6412aeac8b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_787_31.mat using Guid(85742be6b0d043045b9a6412aeac8b34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ad9b9c456c32ee884e0ec9e1d2d8778') in 0.017905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_753_22.mat
+  artifactKey: Guid(7b4c0b9c4e8e88c4c84d9a23e334c5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_753_22.mat using Guid(7b4c0b9c4e8e88c4c84d9a23e334c5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '801e0a11460e255788f4d9ad730901a0') in 0.020374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_849_42.mat
+  artifactKey: Guid(cb3d10eb67a2cda488864cfb8db74056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_849_42.mat using Guid(cb3d10eb67a2cda488864cfb8db74056) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0623b6fa344c0c656092916286915ee6') in 0.020808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/meshes/bumpers_Material #698_0_79_0.asset
+  artifactKey: Guid(23eafc06eff0d844c98ab8551ce47eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/bumpers_Material #698_0_79_0.asset using Guid(23eafc06eff0d844c98ab8551ce47eed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f299fc55444bd4c45cfdda2bef1de9c') in 0.026203 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Object002_Material #695_0_170_0.asset
+  artifactKey: Guid(be56e02c10596d24ebe0ab10cf3f847f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Object002_Material #695_0_170_0.asset using Guid(be56e02c10596d24ebe0ab10cf3f847f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8781f9aa1637ddc612909755daf81524') in 0.017293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire06_Material #362_0_36_0.asset
+  artifactKey: Guid(f87364f9071800d4991963333a27b9f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire06_Material #362_0_36_0.asset using Guid(f87364f9071800d4991963333a27b9f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0e3f4f29e33715f8c5833f6e5d61320e') in 0.017493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Plate_Material #826_0_72_0.asset
+  artifactKey: Guid(2a8c0967905d89447b53e702caacea31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Plate_Material #826_0_72_0.asset using Guid(2a8c0967905d89447b53e702caacea31) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '62f711953c77b3bc164ebe45825c16f2') in 0.020058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire012_Material #362_0_137_0.asset
+  artifactKey: Guid(ccdd6a2d8c10711469a340a7c5b20f5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire012_Material #362_0_137_0.asset using Guid(ccdd6a2d8c10711469a340a7c5b20f5a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '748df41c312993b22d47cfe673d12031') in 0.016452 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1860_44.mat
+  artifactKey: Guid(05ed789495a857c4d81204754b798e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_1860_44.mat using Guid(05ed789495a857c4d81204754b798e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d02d9754ec4ab9d4f4e26a18109bc4a') in 0.020130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Object002_Material #849_0_168_0.asset
+  artifactKey: Guid(2fa75cc4475fc864b9b04f1d7cd3e6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Object002_Material #849_0_168_0.asset using Guid(2fa75cc4475fc864b9b04f1d7cd3e6ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '866d6d43d0dd33b5aa345624a7d89973') in 0.016739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire07_Material #752_0_32_0.asset
+  artifactKey: Guid(b6651c0ff75df2744a94d9dce06b227e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire07_Material #752_0_32_0.asset using Guid(b6651c0ff75df2744a94d9dce06b227e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38a9eda16b6a050a7f9cafd0a0af18e5') in 0.017269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Passenger_Door_Material #694_0_189_0.asset
+  artifactKey: Guid(029745f0ddaada847a9a584cfca5c882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Passenger_Door_Material #694_0_189_0.asset using Guid(029745f0ddaada847a9a584cfca5c882) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bb18f9e7cf7b6991c121f46109975a3') in 0.038323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1548_51.mat
+  artifactKey: Guid(839b888a28586a946b916f58043e8ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_1548_51.mat using Guid(839b888a28586a946b916f58043e8ce9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3bc997ee91ca608fa0e0b41e2b69f014') in 0.021423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Frontlogo_Material #803_0_58_0.asset
+  artifactKey: Guid(1a9b28f62e4884540a052efa1faf4052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Frontlogo_Material #803_0_58_0.asset using Guid(1a9b28f62e4884540a052efa1faf4052) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a30fac91928b6215d97a2b9d56d2268') in 0.018484 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_773_25.mat
+  artifactKey: Guid(4b2a7197954ee5747af15efdb6f6cd95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_773_25.mat using Guid(4b2a7197954ee5747af15efdb6f6cd95) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c66ac8195e80a680631c2cb3e4a0c5d2') in 0.020073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Frontlogo_Material #801_0_57_0.asset
+  artifactKey: Guid(759b9ea9472214f4ba6f150401e288bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Frontlogo_Material #801_0_57_0.asset using Guid(759b9ea9472214f4ba6f150401e288bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '16dbcf2466c00ddd2e57d74b5b1bf42a') in 0.019504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_847_40.mat
+  artifactKey: Guid(ac6cd143f3c21e749b6d1b870f8f4cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_847_40.mat using Guid(ac6cd143f3c21e749b6d1b870f8f4cab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '37d7bd086d8dfa99b00c33a44ff9edaa') in 0.040222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Steering Wheel_Material #694_0_105_0.asset
+  artifactKey: Guid(688e1ec3271616848b57bf399fb4fea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Steering Wheel_Material #694_0_105_0.asset using Guid(688e1ec3271616848b57bf399fb4fea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '25d6b126864432a7791a6a2c41ad69cc') in 0.018289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_699_7.mat
+  artifactKey: Guid(abb8dacd6d4032f429c830387d731c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_699_7.mat using Guid(abb8dacd6d4032f429c830387d731c25) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd3ff6f024153cd0744e03c660d41886f') in 0.021815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Steering Wheel_Material #706_0_102_0.asset
+  artifactKey: Guid(87b0e030ae4dc7141b4e2b9c44592aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Steering Wheel_Material #706_0_102_0.asset using Guid(87b0e030ae4dc7141b4e2b9c44592aad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5c98d513652357fba37ad47e77c6ea40') in 0.018648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/ImportedCars/BMW/meshes/seats_Material #850_0_91_0.asset
+  artifactKey: Guid(c3e18643727fbd6499c5f2ce6575e89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/seats_Material #850_0_91_0.asset using Guid(c3e18643727fbd6499c5f2ce6575e89a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '94b803985461471e23f95f2453afcc45') in 0.016306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_752_21.mat
+  artifactKey: Guid(e53c417939e149d44ae5ba39e31239d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_752_21.mat using Guid(e53c417939e149d44ae5ba39e31239d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c2cee0dd955d2bec3c6e93af9d28540') in 0.019163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1082_48.mat
+  artifactKey: Guid(04d389c444e2234428f3baecdb8b177e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_1082_48.mat using Guid(04d389c444e2234428f3baecdb8b177e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ed59c89476679c51c3e787812ec2e70') in 0.020214 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_574_33.mat
+  artifactKey: Guid(527eb63cb422cef48a7baf1c78bcf3b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_574_33.mat using Guid(527eb63cb422cef48a7baf1c78bcf3b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '458b8bb00fe83d6b9580ad9c143d87a5') in 0.053077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ImportedCars/BMW/textures/Material_1548_baseColor_16.png
+  artifactKey: Guid(00544ab103a021d469f9a28c6034da06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/textures/Material_1548_baseColor_16.png using Guid(00544ab103a021d469f9a28c6034da06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd09d6b7e094bbf9231fc2a7c81266f0') in 0.031422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/meshes/rear_logo_Material #804_0_65_0.asset
+  artifactKey: Guid(0a1d5f78ac186b543b594bec815912a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/rear_logo_Material #804_0_65_0.asset using Guid(0a1d5f78ac186b543b594bec815912a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '96cca520de5c784991c3aaea537b4dca') in 0.015842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_751_20.mat
+  artifactKey: Guid(246b8ff116019f24d92d23930a06fa4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_751_20.mat using Guid(246b8ff116019f24d92d23930a06fa4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '008576d96312c921c68ce957eeff4152') in 0.018055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/BMW/meshes/seatbelt_Material #805_0_183_0.asset
+  artifactKey: Guid(a9744dd9f8e27e542b285966b4d3df17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/seatbelt_Material #805_0_183_0.asset using Guid(a9744dd9f8e27e542b285966b4d3df17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0f1bfb1545b8f523ce433a88015694c6') in 0.018604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Brake_Material #774_0_41_0.asset
+  artifactKey: Guid(39b7b856a303fad4b8d75340fd326ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Brake_Material #774_0_41_0.asset using Guid(39b7b856a303fad4b8d75340fd326ec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83d3035d1b5878e9809b480b8882aa3a') in 0.018547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_706_9.mat
+  artifactKey: Guid(9054bf9d76e133e469b64ea35ef2596d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_706_9.mat using Guid(9054bf9d76e133e469b64ea35ef2596d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ad5884d7af40835f88859ab9264110cd') in 0.018620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/BMW/meshes/brake disc002_Material #408_0_126_0.asset
+  artifactKey: Guid(39891eb9a4f872a4bbeb635254d3a45a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/brake disc002_Material #408_0_126_0.asset using Guid(39891eb9a4f872a4bbeb635254d3a45a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6c381da6edd91da2a0027c814f8813f7') in 0.015892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire008_Material #362_0_115_0.asset
+  artifactKey: Guid(1ab66a9616f27ae44970f93993e0d2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire008_Material #362_0_115_0.asset using Guid(1ab66a9616f27ae44970f93993e0d2f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3d1bc3137963ed4afd6d45df0080da96') in 0.014307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire009_Material #751_0_116_0.asset
+  artifactKey: Guid(b40fbbab1ded5354d95f7046c8823932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire009_Material #751_0_116_0.asset using Guid(b40fbbab1ded5354d95f7046c8823932) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '556af187d8d827b8e10d875492efd2f7') in 0.019264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/meshes/plds_Material #1014_0_199_0.asset
+  artifactKey: Guid(d96a5c72db0a586469577ffa81f33fb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/plds_Material #1014_0_199_0.asset using Guid(d96a5c72db0a586469577ffa81f33fb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '70761f27d78fc99584136f2bf63f8fc5') in 0.015759 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Body_Material #701_0_6_0.asset
+  artifactKey: Guid(9061aa9fef26e6e47acb4e8e3883c12a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Body_Material #701_0_6_0.asset using Guid(9061aa9fef26e6e47acb4e8e3883c12a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6e097e8761148500847a1714fa8b586') in 0.017065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/meshes/exhausts_Material #717_0_47_0.asset
+  artifactKey: Guid(e0a1a7044fe280844a2e99961a185147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/exhausts_Material #717_0_47_0.asset using Guid(e0a1a7044fe280844a2e99961a185147) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3cc5fa45a4408f760ac30863cf3861cb') in 0.015684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_362_23.mat
+  artifactKey: Guid(a4de84cdbf32b88459cb056da42594a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_362_23.mat using Guid(a4de84cdbf32b88459cb056da42594a1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea5909d67fe4f545ec611c15f3033325') in 0.049255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/meshes/brake disc_Material #717_0_38_0.asset
+  artifactKey: Guid(50848b364ea989e4fb5fd02f07316c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/brake disc_Material #717_0_38_0.asset using Guid(50848b364ea989e4fb5fd02f07316c91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f928a37be523ccc804230a7b122a478') in 0.017515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_716_15.mat
+  artifactKey: Guid(bf7890b0af9cd7c46914f6fde78d3cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_716_15.mat using Guid(bf7890b0af9cd7c46914f6fde78d3cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fde65fed10756f9159145ad6ba5c0882') in 0.019566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_801_34.mat
+  artifactKey: Guid(7181faa74dd66f64a8219c848fc7fb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_801_34.mat using Guid(7181faa74dd66f64a8219c848fc7fb69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a54848079035fec0ba30362853d3577a') in 0.018281 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_718_13.mat
+  artifactKey: Guid(21b9155dc176e8d4c9e6f03b69d58489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_718_13.mat using Guid(21b9155dc176e8d4c9e6f03b69d58489) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1fad9d2ecce1e90b2ed67b58bfe84795') in 0.018582 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_694_1.mat
+  artifactKey: Guid(aa9a706cdcf7c0c4aaf7bbed492ad6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_694_1.mat using Guid(aa9a706cdcf7c0c4aaf7bbed492ad6a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9adeac8ce3d51cdd932462687fafd11d') in 0.018523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/meshes/interior_mirror_Material #999_0_186_0.asset
+  artifactKey: Guid(908cde3c65a465d40976a033dd9e48a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/interior_mirror_Material #999_0_186_0.asset using Guid(908cde3c65a465d40976a033dd9e48a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd7e84ae0f9c3cb43881574ea4bf0d12e') in 0.019657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedCars/BMW/animations
+  artifactKey: Guid(9068c8418146b1e4fab1a69523daaa05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/animations using Guid(9068c8418146b1e4fab1a69523daaa05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ad2d256d6b7bed672e3016a7ba94cee') in 0.015558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire008_Material #697_0_114_0.asset
+  artifactKey: Guid(489abc5e9cfc26e4f8dd2002d48264ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire008_Material #697_0_114_0.asset using Guid(489abc5e9cfc26e4f8dd2002d48264ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2cb565d4f8a0d6bc32e3b023bdd77252') in 0.016155 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tire012_Material #694_0_135_0.asset
+  artifactKey: Guid(9448387f0fe29a947b016e0cb68039b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tire012_Material #694_0_135_0.asset using Guid(9448387f0fe29a947b016e0cb68039b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '882d6627d0672f3223c65147b2d02300') in 0.019703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Driver_Door_Material #1824_0_150_0.asset
+  artifactKey: Guid(709a9a7fb0864524cab5b2130a282946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Driver_Door_Material #1824_0_150_0.asset using Guid(709a9a7fb0864524cab5b2130a282946) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2b8520686862c01f78b2130012703956') in 0.021073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Object002_Material #804_0_172_0.asset
+  artifactKey: Guid(317139cfd2ac0cc46aaf0fca0254e53f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Object002_Material #804_0_172_0.asset using Guid(317139cfd2ac0cc46aaf0fca0254e53f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a71bc273d6c25236b182e489aa978605') in 0.022009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tail_Material #694_0_23_0.asset
+  artifactKey: Guid(58cb226afa73b12499d284b7f66d73b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tail_Material #694_0_23_0.asset using Guid(58cb226afa73b12499d284b7f66d73b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '88c2afdda2d045449cccad1582f5f9b3') in 0.019585 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Brake003_Material #697_0_122_0.asset
+  artifactKey: Guid(bbd38e71e5717ea468e003b6c3619b1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Brake003_Material #697_0_122_0.asset using Guid(bbd38e71e5717ea468e003b6c3619b1f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b034b488c295b445a278b9f9a16d6720') in 0.019810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/BMW/meshes/glsslight_Material #718_0_14_0.asset
+  artifactKey: Guid(b51102e0fcfe84447a611968036ad0ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/glsslight_Material #718_0_14_0.asset using Guid(b51102e0fcfe84447a611968036ad0ad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '54c3ba58a72322c8719a1745ed8bf757') in 0.015680 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/ImportedCars/BMW/meshes/tailpiece_Material #701_0_27_0.asset
+  artifactKey: Guid(352637d28c538b64c8fd4efee9684bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/tailpiece_Material #701_0_27_0.asset using Guid(352637d28c538b64c8fd4efee9684bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '19e163635b271dd805144c7e362cb6fc') in 0.018623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1046_56.mat
+  artifactKey: Guid(add1410b83fab5d48aaf282e5dc93a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_1046_56.mat using Guid(add1410b83fab5d48aaf282e5dc93a18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5ebc7ffad4bcf88d17fade418a0fc1a3') in 0.019838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/ImportedCars/BMW/textures/Material_848_baseColor_10.png
+  artifactKey: Guid(8956ba8a31d0c4e42bf957781b747162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/textures/Material_848_baseColor_10.png using Guid(8956ba8a31d0c4e42bf957781b747162) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8be9369ede55ed8e948886deabeff5d8') in 0.030903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/meshes/glass_Material #699_0_96_0.asset
+  artifactKey: Guid(739c35ba526b94542a0caa95365d935f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/glass_Material #699_0_96_0.asset using Guid(739c35ba526b94542a0caa95365d935f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '79f5d25bcee85867a42889e294f0b702') in 0.021235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/BMW/BMW.prefab
+  artifactKey: Guid(f55560189dd3bf14e9dd46605247741f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/BMW.prefab using Guid(f55560189dd3bf14e9dd46605247741f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '229068395d7dacc30074d3cb35ba04bc') in 0.268032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1234
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1063_45.mat
+  artifactKey: Guid(32251d661f75f5f4a99dc6a562a15ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_1063_45.mat using Guid(32251d661f75f5f4a99dc6a562a15ad5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4518da1bc5c613c13e00965ed0de51cb') in 0.048051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Body_Material #699_0_7_0.asset
+  artifactKey: Guid(4ded521c7e3252f49b976b3619a1c732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Body_Material #699_0_7_0.asset using Guid(4ded521c7e3252f49b976b3619a1c732) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13daf94c50f0cc39c4116b132c67b28b') in 0.017508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ImportedCars/BMW/meshes/InteriorAlcntr_Material #697_0_101_0.asset
+  artifactKey: Guid(be545903a89107847b7e8966626427b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/InteriorAlcntr_Material #697_0_101_0.asset using Guid(be545903a89107847b7e8966626427b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0a09863ce6710da48461ca89da9ae6d') in 0.025960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Passenger_Door_Material #1824_0_197_0.asset
+  artifactKey: Guid(26fc97d9afce1a54283080dfe0275a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Passenger_Door_Material #1824_0_197_0.asset using Guid(26fc97d9afce1a54283080dfe0275a52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f71a75bedf1202722a4db0ef488de37f') in 0.018821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/ImportedCars/BMW/meshes/rearseats_Material #706_0_176_0.asset
+  artifactKey: Guid(c269f7e186cc0d749b7209a805f83961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/rearseats_Material #706_0_176_0.asset using Guid(c269f7e186cc0d749b7209a805f83961) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e41de54c232da7d7885f6d4b0e305990') in 0.019251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/BMW/meshes/seats_Material #803_0_93_0.asset
+  artifactKey: Guid(3837eedfda7e0064195d0a13c7a5859c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/seats_Material #803_0_93_0.asset using Guid(3837eedfda7e0064195d0a13c7a5859c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7bb95c2c02f4015f42ea3ba0f296a710') in 0.022310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Driver_Door_Material #698_0_144_0.asset
+  artifactKey: Guid(71cc39771c21cd341b3ce023a820dafb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Driver_Door_Material #698_0_144_0.asset using Guid(71cc39771c21cd341b3ce023a820dafb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f6f03b180b14d6ebc0e00e9a1ff7e9b0') in 0.025976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_161_12.mat
+  artifactKey: Guid(558872aaabfc16640aaf53994ec57eb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_161_12.mat using Guid(558872aaabfc16640aaf53994ec57eb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eaa30b48f90805d0fd669b333fa37f5c') in 0.022066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/ImportedCars/BMW/meshes/glsslight_Material #716_0_16_0.asset
+  artifactKey: Guid(bf970ed2d703b3d4ea56731d5ff3185c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/glsslight_Material #716_0_16_0.asset using Guid(bf970ed2d703b3d4ea56731d5ff3185c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '13ab498bbecb4d34c6a66585dc51d814') in 0.018796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_279_16.mat
+  artifactKey: Guid(bf14a4e375cc5b4449c20e6d9ae2e786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/materials/Material_279_16.mat using Guid(bf14a4e375cc5b4449c20e6d9ae2e786) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24c339f1d0bb2fe3bb1163a0d0e16de9') in 0.023062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ImportedCars/BMW/meshes/Brake_Material #697_0_40_0.asset
+  artifactKey: Guid(4b25e1e68c6954c4b8f85c9e0447f015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ImportedCars/BMW/meshes/Brake_Material #697_0_40_0.asset using Guid(4b25e1e68c6954c4b8f85c9e0447f015) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2637e21ce956cad7fe36389e266d3a9e') in 0.016520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 41.129450 seconds.
+  path: Assets/Scenes/MarkerBasedARScene.unity
+  artifactKey: Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/MarkerBasedARScene.unity using Guid(3d918747683932f45b5ab1286f66c61a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2754f7fc3cec959d312c9a6b494165c6') in 0.016901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 1487.570868 seconds.
+  path: Assets/Prefabs/Mercedes-Benz.prefab
+  artifactKey: Guid(2f60ee25d1ace374ab3ed03ffeb6c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Mercedes-Benz.prefab using Guid(2f60ee25d1ace374ab3ed03ffeb6c2be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28922458979028cdbc94b064dc56b498') in 0.972368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2036
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Prefabs/Lamborghini.prefab
+  artifactKey: Guid(afc530aa026cf0a40b8bd995e87aa047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Prefabs/Lamborghini.prefab using Guid(afc530aa026cf0a40b8bd995e87aa047) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '356a752eb059a428e2fee14339f207f7') in 0.509161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 491
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Prefabs/Lamborghini.prefab
+  artifactKey: Guid(afc530aa026cf0a40b8bd995e87aa047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Lamborghini.prefab using Guid(afc530aa026cf0a40b8bd995e87aa047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3dd78e8c5cdf6128909121f0634728') in 0.671795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 545
+========================================================================
+Received Import Request.
+  Time since last request: 4796.117094 seconds.
+  path: Assets/ImportedCars/Lamborghini/textures/CRBN_JANTE_baseColor_0.png
+  artifactKey: Guid(3a9e2e344330ab7459c5819a1047afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/Lamborghini/textures/CRBN_JANTE_baseColor_0.png using Guid(3a9e2e344330ab7459c5819a1047afcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95c46a24255157d607e345d8f1787a3') in 0.124617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/ImportedCars/Lamborghini/textures/CUIR_baseColor_2.png
+  artifactKey: Guid(afbed82cbcfb36845837d1f4366c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/Lamborghini/textures/CUIR_baseColor_2.png using Guid(afbed82cbcfb36845837d1f4366c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a375b51eaf913802a15c2150ce0b66') in 0.074797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/ImportedCars/Lamborghini/textures/Material.003_baseColor_1.png
+  artifactKey: Guid(a794028967835d94488f41805056e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/Lamborghini/textures/Material.003_baseColor_1.png using Guid(a794028967835d94488f41805056e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21566674db74e626333358898346d92c') in 0.017700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.697978 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_362_23.mat
+  artifactKey: Guid(a4de84cdbf32b88459cb056da42594a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_362_23.mat using Guid(a4de84cdbf32b88459cb056da42594a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39f2a6446794e781f7ce3e1b563a7531') in 0.121349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_773_25.mat
+  artifactKey: Guid(4b2a7197954ee5747af15efdb6f6cd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_773_25.mat using Guid(4b2a7197954ee5747af15efdb6f6cd95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8807b6027a6ac24f24d1d5c158736fe') in 0.025089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_700_8.mat
+  artifactKey: Guid(b63c5bad048a7ff4796d648bda08b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_700_8.mat using Guid(b63c5bad048a7ff4796d648bda08b357) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8f35357214a14be1198765ea60bbafd') in 0.020697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_698_3.mat
+  artifactKey: Guid(0e61411f2ef77c34f9846ca11ac56cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_698_3.mat using Guid(0e61411f2ef77c34f9846ca11ac56cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c714bd3a17b4914037113365660081') in 0.023026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_696_5.mat
+  artifactKey: Guid(02b31e651c2e97b41b86684d45bcebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_696_5.mat using Guid(02b31e651c2e97b41b86684d45bcebe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a88a352826d638715ef6db86d8a35e') in 0.022202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_738_18.mat
+  artifactKey: Guid(64934a83dc16a684180d3f5744253e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_738_18.mat using Guid(64934a83dc16a684180d3f5744253e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42a41cdf7948f7a5fe169e29cac5a335') in 0.025505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_692_0.mat
+  artifactKey: Guid(bd8c8b9d90def6345992634b44c13d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_692_0.mat using Guid(bd8c8b9d90def6345992634b44c13d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292d364e140b6a97b8cf4a4f14c322d1') in 0.029688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_538_30.mat
+  artifactKey: Guid(510e2790f90c41c49b5a7c604faafd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_538_30.mat using Guid(510e2790f90c41c49b5a7c604faafd51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c18aa01a865570c581bca279e407a1ec') in 0.077498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_699_7.mat
+  artifactKey: Guid(abb8dacd6d4032f429c830387d731c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_699_7.mat using Guid(abb8dacd6d4032f429c830387d731c25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '991ddcc2f79a4a59f7b92f91ae223ac2') in 0.021510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_718_13.mat
+  artifactKey: Guid(21b9155dc176e8d4c9e6f03b69d58489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_718_13.mat using Guid(21b9155dc176e8d4c9e6f03b69d58489) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e953f34ee99127441dc77ffa84d8bf0c') in 0.044104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_752_21.mat
+  artifactKey: Guid(e53c417939e149d44ae5ba39e31239d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_752_21.mat using Guid(e53c417939e149d44ae5ba39e31239d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b4ac6234ef9f69932b143e1960ac0b') in 0.018200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_694_1.mat
+  artifactKey: Guid(aa9a706cdcf7c0c4aaf7bbed492ad6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_694_1.mat using Guid(aa9a706cdcf7c0c4aaf7bbed492ad6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbf7bc03589616cbff6bebbbbd877dcc') in 0.019913 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_695_4.mat
+  artifactKey: Guid(da9cd6d0e63f35c44b144dda1e205d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_695_4.mat using Guid(da9cd6d0e63f35c44b144dda1e205d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b24a3a6c288d9edcce3cd9a2224f74') in 0.016921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.895096 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_776_28.mat
+  artifactKey: Guid(eb774c09d1250fc45909bc9229755885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_776_28.mat using Guid(eb774c09d1250fc45909bc9229755885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6ec97ac7094c1e02fc132ed1fed962') in 0.016469 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_787_31.mat
+  artifactKey: Guid(85742be6b0d043045b9a6412aeac8b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_787_31.mat using Guid(85742be6b0d043045b9a6412aeac8b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34ff3077797ec0e987642d06ce20c531') in 0.017968 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_786_29.mat
+  artifactKey: Guid(7aa301941025b214aa08d3df96bef983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_786_29.mat using Guid(7aa301941025b214aa08d3df96bef983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc82e043c607c6294aa1b5ffbc85a5c0') in 0.019413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.834836 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_826_39.mat
+  artifactKey: Guid(13fa8998339fd6a4ebba95a103291e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_826_39.mat using Guid(13fa8998339fd6a4ebba95a103291e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07f52c02160c6bebfbf2af994abaaa26') in 0.031638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_847_40.mat
+  artifactKey: Guid(ac6cd143f3c21e749b6d1b870f8f4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_847_40.mat using Guid(ac6cd143f3c21e749b6d1b870f8f4cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe3bae57b2ef8a23d46be3b7455756c') in 0.050965 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_850_43.mat
+  artifactKey: Guid(b0ed1335187ab4d47b37a33d5f47f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_850_43.mat using Guid(b0ed1335187ab4d47b37a33d5f47f94e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f32e3d0fd58af10d8a22bbaa50f5dc') in 0.023944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171396 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1015_53.mat
+  artifactKey: Guid(197648fff5f8ccb4fae1d662c64d9a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_1015_53.mat using Guid(197648fff5f8ccb4fae1d662c64d9a1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb3756c609d85ad2fad2d63e248735e') in 0.018208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1046_56.mat
+  artifactKey: Guid(add1410b83fab5d48aaf282e5dc93a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_1046_56.mat using Guid(add1410b83fab5d48aaf282e5dc93a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a9c96de790bbd7b09440b072958a26e') in 0.019316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1069_55.mat
+  artifactKey: Guid(5b32c1a9d469e8f4f89df511de2a0e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_1069_55.mat using Guid(5b32c1a9d469e8f4f89df511de2a0e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f0edbbd7111dae823cfd7ac481d7ae6') in 0.018308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ImportedCars/BMW/materials/Material_1063_45.mat
+  artifactKey: Guid(32251d661f75f5f4a99dc6a562a15ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedCars/BMW/materials/Material_1063_45.mat using Guid(32251d661f75f5f4a99dc6a562a15ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbad2747df7ca54320fef454a66a8e74') in 0.044969 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 56281.148976 seconds.
+  path: Assets/ReferenceImageLibrary.asset
+  artifactKey: Guid(1770b6ec44082624c9295cdc67d2bb8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferenceImageLibrary.asset using Guid(1770b6ec44082624c9295cdc67d2bb8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '806f7e158cd62f71bb253c7ae19755d5') in 0.070041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/ReferenceImageLibraryMERCEDESBENZ.asset
+  artifactKey: Guid(ad1703d56ac6c2a4f9770ef74968f4a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/ReferenceImageLibraryMERCEDESBENZ.asset using Guid(ad1703d56ac6c2a4f9770ef74968f4a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a28ff75c88dd26c8b1d2d26a5e7b177e') in 0.060075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 377.382706 seconds.
+  path: Assets/ReferenceImageLibraryBMW.asset
+  artifactKey: Guid(c18acaee193552e47aecff77ea13a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ReferenceImageLibraryBMW.asset using Guid(c18acaee193552e47aecff77ea13a58f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63aa2e5a6e52a3434cf6c22da9ef84f2') in 0.033173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.885 seconds
+Refreshing native plugins compatible for Editor in 12.35 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  2.734 seconds
+Domain Reload Profiling: 3618ms
+	BeginReloadAssembly (326ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (139ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (443ms)
+		LoadAssemblies (521ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (760ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (118ms)
+			ProcessInitializeOnLoadAttributes (452ms)
+			ProcessInitializeOnLoadMethodAttributes (125ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 18.44 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (2.0 MB). Loaded Objects now: 7265.
+Memory consumption went from 248.9 MB to 246.9 MB.
+Total: 11.308500 ms (FindLiveObjects: 1.389800 ms CreateObjectMapping: 1.168200 ms MarkObjects: 6.891900 ms  DeleteObjects: 1.856700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.274 seconds
+Refreshing native plugins compatible for Editor in 12.32 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in 19.107 seconds
+Domain Reload Profiling: 25380ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (98ms)
+	RebuildCommonClasses (165ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (5757ms)
+		LoadAssemblies (5844ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (19107ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (597ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (44ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 18.90 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (1.9 MB). Loaded Objects now: 7270.
+Memory consumption went from 250.7 MB to 248.8 MB.
+Total: 6.189100 ms (FindLiveObjects: 0.593200 ms CreateObjectMapping: 0.689900 ms MarkObjects: 3.726100 ms  DeleteObjects: 1.178600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.745 seconds
+Refreshing native plugins compatible for Editor in 13.01 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.374 seconds
+Domain Reload Profiling: 2118ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (76ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (82ms)
+	LoadAllAssembliesAndSetupDomain (339ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1375ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (614ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (59ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 22.11 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (2.0 MB). Loaded Objects now: 7275.
+Memory consumption went from 252.7 MB to 250.7 MB.
+Total: 8.536800 ms (FindLiveObjects: 0.843100 ms CreateObjectMapping: 0.971400 ms MarkObjects: 4.986200 ms  DeleteObjects: 1.734400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.550 seconds
+Refreshing native plugins compatible for Editor in 13.25 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.433 seconds
+Domain Reload Profiling: 1981ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (281ms)
+		LoadAssemblies (339ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (613ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (339ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 24.85 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (1.8 MB). Loaded Objects now: 7280.
+Memory consumption went from 254.5 MB to 252.7 MB.
+Total: 11.193900 ms (FindLiveObjects: 0.979700 ms CreateObjectMapping: 1.139200 ms MarkObjects: 7.187700 ms  DeleteObjects: 1.885900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.580 seconds
+Refreshing native plugins compatible for Editor in 14.19 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.493 seconds
+Domain Reload Profiling: 2072ms
+	BeginReloadAssembly (176ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (288ms)
+		LoadAssemblies (344ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (28ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1493ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (655ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (374ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 26.86 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (1.9 MB). Loaded Objects now: 7285.
+Memory consumption went from 256.5 MB to 254.6 MB.
+Total: 11.335600 ms (FindLiveObjects: 0.916800 ms CreateObjectMapping: 1.216600 ms MarkObjects: 6.901200 ms  DeleteObjects: 2.299100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.645 seconds
+Refreshing native plugins compatible for Editor in 12.85 ms, found 10 plugins.
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Failed to load: D:/2022.3.22f1/Editor/Data/PlaybackEngines/VisionOSPlayer\x64\UnityEditor.VisionOS.Native.dll
+Native extension for VisionOS target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.967 seconds
+Domain Reload Profiling: 2611ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (86ms)
+			TypeCache.Refresh (18ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (48ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1967ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1079ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (670ms)
+			ProcessInitializeOnLoadMethodAttributes (162ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Refreshing native plugins compatible for Editor in 29.48 ms, found 10 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6520 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 93 unused Assets / (2.0 MB). Loaded Objects now: 7291.
+Memory consumption went from 258.6 MB to 256.6 MB.
+Total: 12.152400 ms (FindLiveObjects: 1.410200 ms CreateObjectMapping: 1.948900 ms MarkObjects: 6.691500 ms  DeleteObjects: 2.100200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MainMenu.cs: bcc0f9052176b2186a7114234ef44a73 -> c093076ba5753d7bec74a8a751ffb653
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 

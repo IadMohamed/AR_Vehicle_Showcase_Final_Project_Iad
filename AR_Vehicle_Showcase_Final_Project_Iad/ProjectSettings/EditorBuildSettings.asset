@@ -5,18 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: d4174042af9158a468d58b77dc2c38ae
   - enabled: 1
     path: Assets/Scenes/MarkerLessARScene.unity
     guid: 0842985bc80666d489d84ed40c2635d4
-  - enabled: 0
-    path: Assets/Scenes/MainMenuScene.unity
-    guid: 1b274f1284dd46743ace1af52108e3d4
-  - enabled: 0
-    path: Assets/Scenes/MarkerBasedARScene.unity
-    guid: 3d918747683932f45b5ab1286f66c61a
+  - enabled: 1
+    path: Assets/Scenes/MarkerBasedScene.unity
+    guid: c11baf266f000154ea04de0558368374
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 6b2af6b10dd17f141848a770470ebdf9,
       type: 2}

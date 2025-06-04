@@ -7,9 +7,19 @@ public class SpinOnYAxis : MonoBehaviour
     [Header("Rotation Speed (degrees per second)")]
     public float rotationSpeed = 90f;
 
+    private bool isSpinning = false;
+
     void Update()
     {
-        // Rotate clockwise around the Y-axis (like a spinning display or turntable)
-        transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+        if (isSpinning)
+        {
+            transform.Rotate(Vector3.up * rotationSpeed * Time.deltaTime);
+        }
+    }
+
+    // Call this from a UI Button
+    public void ToggleSpin()
+    {
+        isSpinning = !isSpinning;
     }
 }

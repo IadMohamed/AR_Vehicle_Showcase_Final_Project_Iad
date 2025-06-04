@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: CARS ReferenceImageLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 0
-  m_GuidHigh: 0
+  m_GuidLow: 4821289382359705481
+  m_GuidHigh: 11709013868652459919
   m_DataStore:
     m_Storage: []
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4633432117855355772
-      m_GuidHigh: 5555217665473040520
+      m_GuidLow: 4868602099566995154
+      m_GuidHigh: 9025466125706667907
     m_SerializedTextureGuid:
       m_GuidLow: 5387690358287742082
       m_GuidHigh: 286772223927055017
@@ -28,22 +28,22 @@ MonoBehaviour:
     m_Name: BMW
     m_Texture: {fileID: 2800000, guid: ed89b482ebd54ac4a9f29e7ad1d1fa03, type: 3}
   - m_SerializedGuid:
-      m_GuidLow: 5741373119698803619
-      m_GuidHigh: 317681461589977271
+      m_GuidLow: 4889610150893669497
+      m_GuidHigh: 8693347525158419617
     m_SerializedTextureGuid:
-      m_GuidLow: 11971775993440309111
-      m_GuidHigh: 16707547435691264890
-    m_Size: {x: 0, y: 0}
-    m_SpecifySize: 0
-    m_Name: Lamborghini
-    m_Texture: {fileID: 2800000, guid: 3b8f0f774ad6a6247acb5d54df21dde7, type: 3}
-  - m_SerializedGuid:
-      m_GuidLow: 5632244862338319239
-      m_GuidHigh: 460675534686843322
-    m_SerializedTextureGuid:
-      m_GuidLow: 14322599363043181358
-      m_GuidHigh: 3790244097494367099
+      m_GuidLow: 5157949410490101797
+      m_GuidHigh: 11131151053733688601
     m_Size: {x: 0, y: 0}
     m_SpecifySize: 0
     m_Name: Mercedes-Benz
-    m_Texture: {fileID: 2800000, guid: 7e6cc32e183cc6c47b3b2cd3eca69934, type: 3}
+    m_Texture: {fileID: 2800000, guid: 2db2b025b7a9479419f50273e8ca799a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5733268969988029855
+      m_GuidHigh: 13160887328981071524
+    m_SerializedTextureGuid:
+      m_GuidLow: 1982907279273202920
+      m_GuidHigh: 15275514983788846923
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: Lamborghini
+    m_Texture: {fileID: 2800000, guid: 239d94e8b3aa1b844b1fe4d1f187fdd3, type: 3}
